@@ -1,0 +1,32 @@
+/* Generic resets */
+body { margin:0; font-family:Arial, sans-serif; background:#f9f9f9; }
+.container { width:90%; max-width:1200px; margin:0 auto; }
+
+/* Header */
+.site-header { background:#333; padding:15px 0; color:#fff; }
+.site-header .logo a { color:#fff; text-decoration:none; font-size:24px; font-weight:bold; }
+/*.main-nav ul { list-style:none; display:flex; gap:20px; }
+.main-nav a { color:#fff; text-decoration:none; }
+.main-nav a:hover { text-decoration:underline; }*/
+
+/* Footer */
+.site-footer { background:#222; color:#ccc; text-align:center; padding:15px 0; margin-top:30px; }
+
+/* Unique page styles */
+.index-page .hero { text-align:center; padding:60px 20px; }
+.login-page .login-wrapper,
+.register-page .register-wrapper {
+     width:400px;
+      margin:50px auto; 
+      padding:20px; 
+      background:#fff; 
+      border-radius:8px; 
+      box-shadow:0 0 10px rgba(0,0,0,.1); 
+    }
+.login-wrapper h2, .register-wrapper h2 { margin-bottom:15px; }
+form label { display:block; margin:10px 0 5px; }
+form input { width:100%; padding:8px; margin-bottom:10px; border:1px solid #ccc; border-radius:4px; }
+button { background:#333; color:#fff; padding:10px 15px; border:none; border-radius:4px; cursor:pointer; }
+button:hover { background:#555; }
+.error { color:red; }
+.success { color:green; }
